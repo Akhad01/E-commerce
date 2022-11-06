@@ -1,0 +1,38 @@
+.home {
+    grid-area: main;
+    background-color: #F3F5F8;
+    border-radius: 6px;
+    max-width: 1097px;
+    margin: 20px 0 16px 20px;
+    float: right;
+
+    &__wrapper {
+        padding: 20px 28px 30px 28px;
+
+        h3 {
+            font-family: "Gilroy-regular" ,"sans-serif";
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+            color: #3D639D;
+        }
+    }
+}
+
+.title4 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #262728;
+}
+
+.block__products {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
